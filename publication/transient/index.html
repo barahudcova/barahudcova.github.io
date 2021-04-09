@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.82.0" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Barbora Hudcová">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We introduce a novel complexity metric which measures the asymptotic growth of the average computation time in cellular automata. We use it to classify CA dynamics and to automatically search for CA with complex behavior.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://examplesite.org/publication/transient/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.ba49be40d73816325080922df1b978b2.css">
+
+  
+
+  
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://examplesite.org/publication/transient/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Barbora Hudcová">
+  <meta property="og:url" content="https://examplesite.org/publication/transient/">
+  <meta property="og:title" content="Classification of Complex Systems Based on Transients | Barbora Hudcová">
+  <meta property="og:description" content="We introduce a novel complexity metric which measures the asymptotic growth of the average computation time in cellular automata. We use it to classify CA dynamics and to automatically search for CA with complex behavior."><meta property="og:image" content="https://examplesite.org/publication/transient/featured.png">
+  <meta property="twitter:image" content="https://examplesite.org/publication/transient/featured.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-07-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-07-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Classification of Complex Systems Based on Transients | Barbora Hudcová</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Barbora Hudcová</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+    <div class="article-container py-3">
+      <h1 itemprop="name">Classification of Complex Systems Based on Transients</h1>
+
+      
+
+      
+      
+
+
+
+<meta content="2020-07-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-07-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Barbora Hudcová</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tomas/">Tomáš Mikolov</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>July 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1162/isal_a_00260" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=wo6za-efhvk&amp;t=3s" target="_blank" rel="noopener">
+    
+    talk
+  </a>
+
+
+</div>
+
+
+      
+      
+    </div>
+  </div>
+</div>
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">In order to develop systems capable of modeling artificial life, we need to identify, which systems can produce complex behavior. We present a novel classification method applicable to any class of deterministic discrete space and time dynamical systems. The method distinguishes between different asymptotic behaviors of a system&rsquo;s average computation time before entering a loop. When applied to elementary cellular automata, we obtain classification results, which correlate very well with Wolfram&rsquo;s manual classification. Further, we use it to classify 2D cellular automata to show that our technique can easily be applied to more complex models of computation. We believe this classification method can help to develop systems, in which complex structures emerge.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Artificial Life Conference 2020</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><h3 id="informal-summary">Informal Summary</h3>
+<p>In this paper we define a new method of classifying the dynamics of discrete systems which we call the <em>transient classification</em>. The method is fairly simple and works as follows.</p>
+<p>We consider discrete dynamical systems of the form
+$D = (S, F)$
+where $S$ is a finite set of configurations of the system and $F: S \rightarrow S$ is the global update rule. You can image a cellular automaton operating on a bounded lattice with periodic boundary conditions or a random Boolean network. As $S$ is finite, for every $u \in S$ the trajectory $u, F(u), F^2(u), \ldots,$ will eventually enter a loop. We call the preperiod of the sequence the <em>transient</em> and the looping part the <em>attractor</em>.</p>
+<p>We can interpret these notions in the following computational terms: in the transient, information from the initial configuration is processed in an irreversible manner, whereas the loop acts as a memory unit of the output. Therefore, we can interpret the transient length as the computational time of the system (depending on a particular initial configuration).</p>
+<p>Our goal is to measure the <strong>average computation time</strong> of a discrete dynamical system $D=(S, F)$ by measuring its average transient length $T(D)$. We simply do this by randomly sampling initial configurations and using computer simulations to detect the loops and transient lengths. We do this until the variance of the data is &ldquo;reasonably&rdquo; small.</p>
+<p>Let us consider a sequence of systems operating on configuration spaces of growing size:
+$$D_1 = (S_1, F_1), D_2 = (S_2, F_2), D_3 = (S_3, F_3), , \ldots$$
+That is, $F_i: S_i \rightarrow S_i$ and $|S_i| &lt; |S_{i+1}|$ for each $i$. For instance, each $D_i$ can be a cellular automaton given by a fixed local rule, operating on a finite cyclic grid of growing size.</p>
+<p>The key principal of the transient classification is to estimate the average computation time of each system and determine the asymptotic growth of the sequence. This is illustrated in the figure below.
+
+
+
+
+
+
+<figure>
+
+<img src="./diagram.png" width="500px" >
+
+
+</figure>
+</p>
+<p>We try to compute the average transient values $T(D_i)$ for $i$ as large as possible before the computation of the value takes too long (we set some reasonable time bound). We then use regression methods to see, whether the data fit to a bounded, logarithmic, linear, polynomial, or an exponential function. If the fit t oany of the function is good (i.e., with $R^2$ score above $90 %$) we classify the sequence of systems to one of the classes Bound, Log, Lin, Poly, or Exp.</p>
+<p>Surprisingly, many cellular automata exhibit very clear asymptotic growth of their average computation time and the classification seems to work good on them. As an example, we show some figures for elementary automata described by their Wolfram numbers.</p>
+
+
+
+
+
+
+<figure>
+
+<img src="./ecas.png" >
+
+
+</figure>
+
+<p>The trend seems to be that ordered systems correspond to Bound or Log classes whereas chaotic systems to the Exp class. We have examined many complex systems such as the Turing complete elementary automaton 110, or Game of Life to find out they all fit to linear functions the best. We therefore formed a hypothesis that complex behavior correlates with this &ldquo;transition region&rdquo; from logarithmic to exponential behavior. We used this to automatically search for complex automata in large spaces by searching for automata with linear or polynomial growth. Some interesting results are below.</p>
+<p>
+
+
+
+
+
+<figure>
+
+<img src="./lin.gif" >
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Cellular Automata with emerging patterns which have linearly growing average transients.</h4>
+  
+</figcaption>
+
+</figure>
+
+
+
+
+
+
+
+<figure>
+
+<img src="./poly.gif" >
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Cellular Automata with emerging patterns which have polynomially growing average transients.</h4>
+  
+</figcaption>
+
+</figure>
+</p>
+<p>We have applied the transient classification to other discrete dynamical systems to show it works across various systems and present the results in our subsequent <a href="../transient_general/">paper</a>, which is now in the review process for the conference ALife 2021. The results suggest that there is a general trend across discrete systems which we describe in the paper:</p>
+<blockquote>
+<p>The interesting property of the transient classification is that it was able to qualitatively distinguish the phase transition between order and chaos  by identifying it with linear or polynomial transient growth.</p>
+<p>We note that our results are experimental and that the asymptotic behavior of systems in the Lin or Poly class might eventually turn out to be logarithmic or exponential. In that case, such systems would exhibit a significantly longer time before they converge to their typical long-term behavior. That, too, is a typical property of systems at a phase transition.</p>
+</blockquote>
+</div>
+
+    
+
+
+
+
+  </div>
+</div>
+
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.e40e230d9b3dfeac86994156b6388764.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+      
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

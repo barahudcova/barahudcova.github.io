@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Barbora Hudcová</title>
+    <link>https://examplesite.org/publication_types/2/</link>
+    <description>Recent content in 2 on Barbora Hudcová</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://examplesite.org/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Classification of Discrete Dynamical Systems Based on Transients</title>
+      <link>https://examplesite.org/publication/transient_general/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.org/publication/transient_general/</guid>
+      <description>&lt;p&gt;We extend our previous &lt;a href=&#34;../transient&#34;&gt;paper&lt;/a&gt; about a novel method of classifying the dynamics of discrete dynamical systems. Currently, it&amp;rsquo;s in the review process for a special issue of the ALife Journal. After we receive the feedback and adjust the paper accordingly, I will publish the results here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
