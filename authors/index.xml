@@ -14,10 +14,10 @@
     
     <item>
       <title></title>
-      <link>https://examplesite.org/authors/tomas/</link>
+      <link>https://examplesite.org/authors/tomas_mikolov/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/authors/tomas/</guid>
+      <guid>https://examplesite.org/authors/tomas_mikolov/</guid>
       <description></description>
     </item>
     
@@ -30,19 +30,19 @@
       <description>&lt;p&gt;&lt;strong&gt;Ph.D. Student&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Charles University, Prague&lt;/em&gt;&lt;br&gt;
 Faculty of Mathematics and Physics, Algebra department&lt;br&gt;
-supervisors: &lt;a href=&#34;../authors/tomas/&#34;&gt;Tomáš Mikolov&lt;/a&gt;, &lt;a href=&#34;../authors/jiri&#34;&gt;Jiří Tůma&lt;/a&gt;&lt;/p&gt;
+supervisors: &lt;a href=&#34;../authors/tomas_mikolov/&#34;&gt;Tomáš Mikolov&lt;/a&gt;, &lt;a href=&#34;../authors/jiri_tuma&#34;&gt;Jiří Tůma&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Junior Researcher&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Czech Institute of Infromatics, Robotics, and Cybernetics, Prague&lt;/em&gt;&lt;br&gt;
-team leader: &lt;a href=&#34;../authors/tomas&#34;&gt;Tomáš Mikolov&lt;/a&gt;&lt;/p&gt;
+team leader: &lt;a href=&#34;../authors/tomas_mikolov&#34;&gt;Tomáš Mikolov&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://examplesite.org/authors/jiri/</link>
+      <link>https://examplesite.org/authors/jiri_tuma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/authors/jiri/</guid>
+      <guid>https://examplesite.org/authors/jiri_tuma/</guid>
       <description></description>
     </item>
     
