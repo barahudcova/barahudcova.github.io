@@ -7,9 +7,34 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://examplesite.org/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lattice Models</title>
+      <link>https://examplesite.org/teaching/lattice-models/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.org/teaching/lattice-models/</guid>
+      <description>&lt;p&gt;official website of the course: &lt;a href=&#34;https://edu.epfl.ch/coursebook/fr/lattice-models-MATH-434&#34;&gt;https://edu.epfl.ch/coursebook/fr/lattice-models-MATH-434&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheets:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./worksheets/sheet1.pdf&#34;&gt;worksheet 1&lt;/a&gt; &amp;ndash; worksheets will be updated and solutions added&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Lecture Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./lecture_notes/lattice-models-master.pdf&#34;&gt;lecture notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Past Exams:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./exams/Exam2017.pdf&#34;&gt;2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./exams/Exam2018.pdf&#34;&gt;2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./exams/Exam2019.pdf&#34;&gt;2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
