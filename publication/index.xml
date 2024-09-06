@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Barbora Hudcová</title>
-    <link>https://examplesite.org/publication/</link>
+    <link>https://barahudcova.com/publication/</link>
     <description>Recent content in Publications on Barbora Hudcová</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://examplesite.org/publication/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://barahudcova.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Classification of Discrete Dynamical Systems Based on Transients</title>
-      <link>https://examplesite.org/publication/transient_general/</link>
+      <link>https://barahudcova.com/publication/transient_general/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/transient_general/</guid>
+      <guid>https://barahudcova.com/publication/transient_general/</guid>
       <description>&lt;p&gt;We extend our previous &lt;a href=&#34;../transient&#34;&gt;paper&lt;/a&gt; about a novel method of classifying the dynamics of discrete dynamical systems. Currently, it&amp;rsquo;s in the review process for a special issue of the ALife Journal. After we receive the feedback and adjust the paper accordingly, I will publish the results here.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Computational Hierarchy of Elementary Cellular Automata</title>
-      <link>https://examplesite.org/publication/eca_computation/</link>
+      <link>https://barahudcova.com/publication/eca_computation/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/eca_computation/</guid>
+      <guid>https://barahudcova.com/publication/eca_computation/</guid>
       <description>&lt;p&gt;In this paper, we measure the computational capacity of elementary cellular automata. Currently, the paper is in the review process for ALife 2021 Conference. After we receive the feedback and adjust the paper accordingly, I will publish the results here.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Classification of Complex Systems Based on Transients</title>
-      <link>https://examplesite.org/publication/transient/</link>
+      <link>https://barahudcova.com/publication/transient/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/transient/</guid>
+      <guid>https://barahudcova.com/publication/transient/</guid>
       <description>&lt;h3 id=&#34;informal-summary&#34;&gt;Informal Summary&lt;/h3&gt;
 &lt;p&gt;In this paper we define a new method of classifying the dynamics of discrete systems; we call it the &lt;em&gt;transient classification&lt;/em&gt;. The method is fairly simple and works as follows.&lt;/p&gt;
 &lt;p&gt;We consider discrete dynamical systems of the form

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on Barbora Hudcová</title>
-    <link>https://examplesite.org/teaching/</link>
+    <link>https://barahudcova.com/teaching/</link>
     <description>Recent content in Teaching on Barbora Hudcová</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://examplesite.org/teaching/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://barahudcova.com/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lattice Models</title>
-      <link>https://examplesite.org/teaching/lattice-models/</link>
+      <link>https://barahudcova.com/teaching/lattice-models/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/teaching/lattice-models/</guid>
+      <guid>https://barahudcova.com/teaching/lattice-models/</guid>
       <description>&lt;p&gt;official website of the course: &lt;a href=&#34;https://edu.epfl.ch/coursebook/fr/lattice-models-MATH-434&#34;&gt;https://edu.epfl.ch/coursebook/fr/lattice-models-MATH-434&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Worksheets:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
