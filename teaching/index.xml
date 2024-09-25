@@ -23,11 +23,13 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;./worksheets/sheet1.pdf&#34;&gt;worksheet 1&lt;/a&gt; &amp;ndash; &lt;a href=&#34;./worksheets/sheet1-solution.pdf&#34;&gt;solution&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;./worksheets/sheet2.pdf&#34;&gt;worksheet 2&lt;/a&gt; &amp;ndash; &lt;a href=&#34;./worksheets/sheet2-solution.pdf&#34;&gt;solution&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;./worksheets/sheet3.pdf&#34;&gt;worksheet 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./worksheets/sheet3.pdf&#34;&gt;worksheet 3&lt;/a&gt; &amp;ndash; &lt;a href=&#34;./worksheets/sheet3-solution.pdf&#34;&gt;solution&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Lecture Notes:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;./lecture_notes/lattice-models-master.pdf&#34;&gt;lecture notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./lecture_notes/lattice-models-master-extended.pdf&#34;&gt;extended lecture notes&lt;/a&gt;
+The extended lecture notes contain also topics that will not be covered in the course (and need not be studied for the exam).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Past Exams:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
