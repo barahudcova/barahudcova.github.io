@@ -7,10 +7,32 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://barahudcova.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://barahudcova.com/teaching/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://barahudcova.com/teaching/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Current:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2025/2026 spring semester: &lt;a href=&#34;https://barahudcova.com/teaching/life/&#34;&gt;&lt;strong&gt;Cellular Automata and Models of Artificial Life&lt;/strong&gt;&lt;/a&gt; (full lectures, EPFL)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Past:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2024/2025 autumn: &lt;a href=&#34;https://barahudcova.com/teaching/lattice-models/&#34;&gt;&lt;strong&gt;Lattice Models&lt;/strong&gt;&lt;/a&gt; (TA, EPFL)&lt;/li&gt;
+&lt;li&gt;2020/2021 spring semester: &lt;a href=&#34;https://www2.karlin.mff.cuni.cz/~stovicek/index.php/cs/2021ls-nmag112&#34;&gt;&lt;strong&gt;Linear Algebra II&lt;/strong&gt;&lt;/a&gt; (TA, Charles University)&lt;/li&gt;
+&lt;li&gt;2020/2021 winter semester: &lt;a href=&#34;https://www2.karlin.mff.cuni.cz/~stovicek/index.php/cs/2021zs-nmag111&#34;&gt;&lt;strong&gt;Linear Algebra I&lt;/strong&gt;&lt;/a&gt; (TA, Charles University)&lt;/li&gt;
+&lt;li&gt;2019/2020 winter semester: &lt;strong&gt;Linear Algebra I&lt;/strong&gt; (TA, Charles University)&lt;/li&gt;
+&lt;li&gt;2018/2019 winter semester: &lt;strong&gt;Convex Optimization&lt;/strong&gt; (TA, Charles University)&lt;/li&gt;
+&lt;li&gt;2017/2018 winter semester: &lt;strong&gt;Number Theory Proseminar&lt;/strong&gt; (TA, Charles University)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Publications</title>
@@ -19,27 +41,6 @@
       
       <guid>https://barahudcova.com/publication/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>https://barahudcova.com/teaching/</link>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://barahudcova.com/teaching/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Current:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2024/2025 autumn: &lt;a href=&#34;https://barahudcova.com/teaching/lattice-models/&#34;&gt;&lt;strong&gt;Lattice Models&lt;/strong&gt;&lt;/a&gt; (EPFL)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Past:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2020/2021 spring semester: &lt;a href=&#34;https://www2.karlin.mff.cuni.cz/~stovicek/index.php/cs/2021ls-nmag112&#34;&gt;&lt;strong&gt;Linear Algebra II&lt;/strong&gt;&lt;/a&gt; (Charles University)&lt;/li&gt;
-&lt;li&gt;2020/2021 winter semester: &lt;a href=&#34;https://www2.karlin.mff.cuni.cz/~stovicek/index.php/cs/2021zs-nmag111&#34;&gt;&lt;strong&gt;Linear Algebra I&lt;/strong&gt;&lt;/a&gt; (Charles University)&lt;/li&gt;
-&lt;li&gt;2019/2020 winter semester: &lt;strong&gt;Linear Algebra I&lt;/strong&gt; (Charles University)&lt;/li&gt;
-&lt;li&gt;2018/2019 winter semester: &lt;strong&gt;Convex Optimization&lt;/strong&gt; (Charles University)&lt;/li&gt;
-&lt;li&gt;2017/2018 winter semester: &lt;strong&gt;Number Theory Proseminar&lt;/strong&gt; (Charles University)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
   </channel>

@@ -7,10 +7,23 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://barahudcova.com/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cellular Automata and Models of Artificial Life</title>
+      <link>https://barahudcova.com/teaching/life/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://barahudcova.com/teaching/life/</guid>
+      <description>&lt;p&gt;official website of the course: &lt;a href=&#34;https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527&#34;&gt;https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is Artificial Life About?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with such intriguing dynamics - it is likely you have already encountered some of them.&lt;/p&gt;
+&lt;p&gt;To be continued.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lattice Models</title>
