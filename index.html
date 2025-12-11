@@ -118,7 +118,7 @@
   <meta property="og:description" content=""><meta property="og:image" content="https://barahudcova.com/img/icon-192.png">
   <meta property="twitter:image" content="https://barahudcova.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2024-09-01T00:00:00&#43;00:00">
+  <meta property="og:updated_time" content="2025-09-01T00:00:00&#43;00:00">
   
 
   
@@ -152,7 +152,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -351,6 +352,10 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
@@ -430,7 +435,7 @@
     <div id="profile">
       
       
-      <img class="img-fluid" src="/img/image.jpg" itemprop="image" alt="Avatar">
+      <img class="img-fluid" src="/img/profile.png" itemprop="image" alt="Avatar">
       
     </div>
     <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
@@ -513,11 +518,12 @@ with supervisors <a href="https://scholar.google.com/citations?user=oBu8kMMAAAAJ
   <div class="col-12">
     <p>I am fascinated with the behavior of certain dynamical systems where structures seem to spontaneously emerge and further grow in complexity over time. My goal is to use tools from mathematics and theoretical computer science to study such behaviour formally. In my research so far, I was interested in the following questions:</p>
 <ul>
+<li>What is the interplay between computation and self-replication in dynamical systems?</li>
 <li>What formal properties of discrete systems correlate with our intuitive understanding of complexity and chaos?</li>
 <li>How to automatically detect systems with complex behaviour?</li>
-<li>How to formally measure what a given system can or cannot compute?</li>
+<li>How to assess what a given system can or cannot compute?</li>
 </ul>
-<p>I mainly focused on studying cellular automata and derived new results about their dynamics and computational capacity using tools form statistical physics and universal algebra.</p>
+<p>I mainly focused on studying cellular automata and derived new results about their dynamics and computational capacity using tools form statistical physics, universal algebra, and theoretical computer science.</p>
 
 
     
@@ -566,33 +572,25 @@ with supervisors <a href="https://scholar.google.com/citations?user=oBu8kMMAAAAJ
   
   
 
-  <section id="news" class="home-section wg-experience   "  >
+  <section id="news" class="home-section wg-blank   "  >
     <div class="container">
       
 
 
-
 <div class="row">
-  <div class="col-12 section-heading text-center">
-    <h1>News</h1>
-    
-  </div>
-  <div class="col-12">
-    <p>We are organizing a workshop on the Detection and Emergence of Complexity: Artificial Life Perspectives.<br>
-It will take place at EPFL on May 26 - 28, 2025. For more information see our website <a href="https://www.dem.eco/">https://www.dem.eco/</a>.</p>
+  
+    <div class="col-12 section-heading text-center">
+      <h1>News</h1>
+      
+    </div>
+    <div class="col-12">
+      <p><!-- raw HTML omitted -->Dec 2025<!-- raw HTML omitted -->  —  We are currently creating a new course at EPFL that I will teach in the spring semester of 2026. More details will come soon.</p>
+<p><!-- raw HTML omitted -->Nov 2025<!-- raw HTML omitted -->  —  Happy to announce that we will be hosting a second iteration of our workshop: Detection and Emergence of Complexity: Artificial Life Perspectives.\ It will take place at EPFL on May 27 - 29, 2026. If you would like to participate, send us an email at <a href="mailto:demeco2026@gmail.com">demeco2026@gmail.com</a>.</p>
+<p><!-- raw HTML omitted -->Sep 2025<!-- raw HTML omitted -->  —  Last year&rsquo;s workhop was a great success, you can find the recorded talks <a href="https://www.youtube.com/watch?v=tU6OOYZarNc&amp;list=PLEt5M_lIDJdlVYeByo116YMdMPD-qcCak">here</a>.</p>
+<p><!-- raw HTML omitted -->Mar 2024<!-- raw HTML omitted -->  —  We are organizing a workshop on the Detection and Emergence of Complexity: Artificial Life Perspectives.\ It will take place at EPFL on May 26 - 28, 2025. For more information see our website <a href="https://www.dem.eco/">https://www.dem.eco/</a>.</p>
 
-
-    
-    
-    
-
-    
-
-    
-
-    
-    
-  </div>
+    </div>
+  
 </div>
 
     </div>
@@ -675,7 +673,7 @@ It will take place at EPFL on May 26 - 28, 2025. For more information see our we
 <div class="row">
   <div class="col-12 section-heading text-center">
     <h1>Publications</h1>
-    <p>Recently Published Papers and Papers in Progress</p>
+    <p>Selected Papers</p>
     
   </div>
   <div class="col-12">
@@ -706,12 +704,448 @@ It will take place at EPFL on May 26 - 28, 2025. For more information see our we
       <div class="media-body">
 
         <h3 class="article-title mb-0 mt-0" itemprop="name">
-          <a href="/publication/transient/" itemprop="url" style="font-size:18px">Classification of Complex Systems Based on Transients</a>
+          <a href="/publication/self_rep/" itemprop="url" style="font-size:18px">Self-Replication and Computational Universality</a>
         </h3>
 
         
         <div class="article-style" itemprop="articleBody">
-          <p style="font-size:12px">We introduce a novel complexity metric which measures the asymptotic growth of the average computation time in cellular automata (CA). We use it to classify CA dynamics and to automatically search for CA with complex behavior.</p>
+          <p style="font-size:12px">We study the relationship between self-replication and computation in dynamical systems. We challenge a long-standing hypothesis that Turing completeness is a sufficient condition of self-replication. Concretely, we clarify what computational universality means for physical systems and construct a cellular automaton that is Turing-universal but cannot sustain non-trivial self-replication.</p>
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+
+          
+          <div itemprop="author">
+            
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Barbora Hudcová</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jordan_cotler/">Jordan Cotler</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/clement_hongler/">Clément Hongler</a></span>
+
+          </div>
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2510.08342" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/TBD" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+        
+        <a href="/publication/self_rep/">
+          <img src="/publication/self_rep/featured_hu0ca1bef4671dd8a14036c3c32a981033_1662097_250x0_resize_lanczos_3.png" itemprop="image">
+        </a>
+        
+      </div>
+    </div>
+  </div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/publication/sim_lim/" itemprop="url" style="font-size:18px">Simulation Limitations of Affine Cellular Automata</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          <p style="font-size:12px">We study computational capacity of cellular automata via the notion of intrinsic simulation: We say that automaton A is simulated by B if each space-time diagram of A can be, after suitable transformations, reproduced by B. We formalize intrinsic simulation in algebraic terms and show how this framework enables deeper algebraic tools for proving negative results about CA computational power. Our main result shows that (almost) every affine/abelian/linear CA is very limited in terms of what it can simulate</p>
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+
+          
+          <div itemprop="author">
+            
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Barbora Hudcová</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jakub_krasensky/">Jakub Krásenský</a></span>
+
+          </div>
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2311.14477" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.tcs.2024.114606%20" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+        
+        <a href="/publication/sim_lim/">
+          <img src="/publication/sim_lim/featured_hu21cec758084128e6fc5fe21295fa8803_1001869_250x0_resize_lanczos_3.png" itemprop="image">
+        </a>
+        
+      </div>
+    </div>
+  </div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/publication/graph_ca/" itemprop="url" style="font-size:18px">Dynamical Phase Transitions in Graph Cellular Automata</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          <p style="font-size:12px">We relax the cellular automata regular grid structure to random graphs, obtaining graph cellular automata, and use the dynamical cavity method (and its backtracking variant) to derive asymptotically exact results for their dynamics on sparse random graphs. We focus on rules inspired by opinion formation and for varying initial biases, we find sharp dynamical phase transitions that determine convergence speed and the resulting attractors—clarifying when systems reach consensus or sustain long-term coexistence of two opinions.</p>
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+
+          
+          <div itemprop="author">
+            
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/freya_behrens/">Freya Behrens</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Barbora Hudcová</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lenka_zdeborova/">Lenka Zdeborová</a></span>
+
+          </div>
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2310.15894" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1103/PhysRevE.109.044312" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+        
+        <a href="/publication/graph_ca/">
+          <img src="/publication/graph_ca/featured_huf58cf57f09212068a8aabbccd80c7700_95015_250x0_resize_lanczos_3.png" itemprop="image">
+        </a>
+        
+      </div>
+    </div>
+  </div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/publication/enc_dec/" itemprop="url" style="font-size:18px">Studying Encoder–Decoder Relation Between Cellular Automata to Uncover Their Computational Structure</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          <p style="font-size:12px">We study the computational capacity of CAs via the encoder-decoder relation: a stronger variant of intrinsic simulation and propose a method to efficiently search for such relations between two given automata. We demonstrate the results we obtained on the class of elementary cellular automata, presenting a rich hierarchy of their relationships, and we show that the number of elementary automata with unique dynamics can be reduced from 88 to 52. Further, we show that some automata thought as unique have in fact equivalent computational capacity. We believe that using similar approaches, the number of unique automata can be dramatically reduced in the future.</p>
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+
+          
+          <div itemprop="author">
+            
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Barbora Hudcová</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/stefano_nichele/">Stefano Nichele</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tomas_mikolov/">Tomáš Mikolov</a></span>
+
+          </div>
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4244761" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-031-81097-8_1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+        
+        <a href="/publication/enc_dec/">
+          <img src="/publication/enc_dec/featured_huaa4c405bfc00aba95af3c98342694560_264488_250x0_resize_lanczos_3.png" itemprop="image">
+        </a>
+        
+      </div>
+    </div>
+  </div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/publication/transient/" itemprop="url" style="font-size:18px">Classification of Discrete Dynamical Systems Based on Transients</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          <p style="font-size:12px">We introduce a novel complexity metric which measures the asymptotic growth of the average computation time in discrete dynamical systems. We use it to classify cellular automata, compact Turing machines, and random Boolean networks and to automatically search for systems with complex behavior.</p>
         </div>
         
 
@@ -748,7 +1182,7 @@ It will take place at EPFL on May 26 - 28, 2025. For more information see our we
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2008.13503.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2108.01573" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -766,7 +1200,7 @@ It will take place at EPFL on May 26 - 28, 2025. For more information see our we
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1162/isal_a_00260" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1162/artl_a_00342" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -797,237 +1231,7 @@ It will take place at EPFL on May 26 - 28, 2025. For more information see our we
         
         
         <a href="/publication/transient/">
-          <img src="/publication/transient/featured_hu019ac8e2965557fbb2fe0b88a64960b5_27599_250x0_resize_lanczos_3.png" itemprop="image">
-        </a>
-        
-      </div>
-    </div>
-  </div>
-
-      
-      
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="col-md-10 col-lg-8">
-    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/ScholarlyArticle">
-      <div class="media-body">
-
-        <h3 class="article-title mb-0 mt-0" itemprop="name">
-          <a href="/publication/transient_general/" itemprop="url" style="font-size:18px">Classification of Discrete Dynamical Systems Based on Transients</a>
-        </h3>
-
-        
-        <div class="article-style" itemprop="articleBody">
-          <p style="font-size:12px">Generalization of the previous paper about classifying complex systems. We show the method works across various classes of discrete systems. We show the method indicates a region of systems at a phase transition and demonstrate that many hand-designed complex systems belong to this region.</p>
-        </div>
-        
-
-        <div class="stream-meta article-metadata">
-
-          
-
-          
-          <div itemprop="author">
-            
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Barbora Hudcová</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tomas_mikolov/">Tomáš Mikolov</a></span>
-
-          </div>
-          
-        </div>
-
-        
-        <div class="btn-links">
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://direct.mit.edu/artl" target="_blank" rel="noopener">
-    
-    accepted to ALife Journal
-  </a>
-
-
-        </div>
-        
-
-      </div>
-      <div class="ml-3">
-        
-        
-        
-        <a href="/publication/transient_general/">
-          <img src="/publication/transient_general/featured_hud37173446229317cdfb084f58e045a34_66508_250x0_resize_lanczos_3.png" itemprop="image">
-        </a>
-        
-      </div>
-    </div>
-  </div>
-
-      
-      
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="col-md-10 col-lg-8">
-    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/ScholarlyArticle">
-      <div class="media-body">
-
-        <h3 class="article-title mb-0 mt-0" itemprop="name">
-          <a href="/publication/eca_computation/" itemprop="url" style="font-size:18px">Computational Hierarchy of Elementary Cellular Automata</a>
-        </h3>
-
-        
-        <div class="article-style" itemprop="articleBody">
-          <p style="font-size:12px">We study the computational capacity of elementary cellular automata (ECA) by measuring how many other ECA can they emulate. The results suggest that the most chaotic ECA are exactly those that cannot emulate any other. Thus, we propose a new definition of chaos in dynamical systems related to their computing power.</p>
-        </div>
-        
-
-        <div class="stream-meta article-metadata">
-
-          
-
-          
-          <div itemprop="author">
-            
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Barbora Hudcová</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tomas_mikolov/">Tomáš Mikolov</a></span>
-
-          </div>
-          
-        </div>
-
-        
-        <div class="btn-links">
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.robot100.cz/alife2021" target="_blank" rel="noopener">
-    
-    accepted to ALife 2021 Conference
-  </a>
-
-
-        </div>
-        
-
-      </div>
-      <div class="ml-3">
-        
-        
-        
-        <a href="/publication/eca_computation/">
-          <img src="/publication/eca_computation/featured_hu5c260eb0285c8fc00a702e35383cc9d2_32293_250x0_resize_lanczos_3.png" itemprop="image">
+          <img src="/publication/transient/featured_hud37173446229317cdfb084f58e045a34_66508_250x0_resize_lanczos_3.png" itemprop="image">
         </a>
         
       </div>
@@ -1091,18 +1295,52 @@ It will take place at EPFL on May 26 - 28, 2025. For more information see our we
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -1110,12 +1348,12 @@ It will take place at EPFL on May 26 - 28, 2025. For more information see our we
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academia.min.f2fef7019062832f47125d7c2fc68a3b.js"></script>
+    <script src="/js/academia.min.77c1415c9386584bddb5d6c8ed7491f1.js"></script>
 
     
 

@@ -29,7 +29,7 @@
   
     
   
-  <meta name="description" content="We introduce a novel complexity metric which measures the asymptotic growth of the average computation time in cellular automata (CA). We use it to classify CA dynamics and to automatically search for CA with complex behavior.">
+  <meta name="description" content="We introduce a novel complexity metric which measures the asymptotic growth of the average computation time in discrete dynamical systems. We use it to classify cellular automata, compact Turing machines, and random Boolean networks and to automatically search for systems with complex behavior.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://barahudcova.com/publication/transient/">
@@ -110,8 +110,8 @@
   
   <meta property="og:site_name" content="Barbora Hudcová">
   <meta property="og:url" content="https://barahudcova.com/publication/transient/">
-  <meta property="og:title" content="Classification of Complex Systems Based on Transients | Barbora Hudcová">
-  <meta property="og:description" content="We introduce a novel complexity metric which measures the asymptotic growth of the average computation time in cellular automata (CA). We use it to classify CA dynamics and to automatically search for CA with complex behavior."><meta property="og:image" content="https://barahudcova.com/publication/transient/featured.png">
+  <meta property="og:title" content="Classification of Discrete Dynamical Systems Based on Transients | Barbora Hudcová">
+  <meta property="og:description" content="We introduce a novel complexity metric which measures the asymptotic growth of the average computation time in discrete dynamical systems. We use it to classify cellular automata, compact Turing machines, and random Boolean networks and to automatically search for systems with complex behavior."><meta property="og:image" content="https://barahudcova.com/publication/transient/featured.png">
   <meta property="twitter:image" content="https://barahudcova.com/publication/transient/featured.png"><meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2020-07-01T00:00:00&#43;00:00">
@@ -128,7 +128,7 @@
 
 
 
-  <title>Classification of Complex Systems Based on Transients | Barbora Hudcová</title>
+  <title>Classification of Discrete Dynamical Systems Based on Transients | Barbora Hudcová</title>
 
 </head>
 
@@ -150,7 +150,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -349,6 +350,10 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
@@ -381,7 +386,7 @@
     
     
     <div class="article-container py-3">
-      <h1 itemprop="name">Classification of Complex Systems Based on Transients</h1>
+      <h1 itemprop="name">Classification of Discrete Dynamical Systems Based on Transients</h1>
 
       
 
@@ -474,7 +479,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2008.13503.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2108.01573" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -492,7 +497,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1162/isal_a_00260" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1162/artl_a_00342" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -528,7 +533,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">In order to develop systems capable of modeling artificial life, we need to identify which systems can produce complex behavior. We present a novel classification method applicable to any class of deterministic discrete space and time dynamical systems. The method distinguishes between different asymptotic behaviors of a system&rsquo;s average computation time before entering a loop. When applied to elementary cellular automata, we obtain classification results, which correlate very well with Wolfram&rsquo;s manual classification. Further, we use it to classify 2D cellular automata to show that our technique can easily be applied to more complex models of computation. We believe this classification method can help to develop systems, in which complex structures emerge.</p>
+    <p class="pub-abstract" itemprop="text">In order to develop systems capable of artificial evolution, we need to identify which systems can produce complex behavior. We present a novel classification method applicable to any class of deterministic discrete space and time dynamical systems. The method is based on classifying the asymptotic behavior of the average computation time in a given system before entering a loop. We were able to identify a critical region of behavior that corresponds to a phase transition from ordered behavior to chaos across various classes of dynamical systems. To show that our approach can be applied to many different computational systems, we demonstrate the results of classifying cellular automata, Turing machines, and random Boolean networks. Further, we use this method to classify 2D cellular automata to automatically find those with interesting, complex dynamics. We believe that our work can be used to design systems in which complex structures emerge. Also, it can be used to compare various versions of existing attempts to model open-ended evolution.</p>
     
 
     
@@ -539,8 +544,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -556,7 +561,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Artificial Life Conference 2020</div>
+          <div class="col-12 col-md-9">Artificial Life Journal</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -606,25 +611,6 @@ That is, $F_i: S_i \rightarrow S_i$ and $|S_i| &lt; |S_{i+1}|$ for each $i$. For
 </figure>
 
 <p>The results show that ordered systems generally correspond to Bound or Log classes whereas chaotic systems to the Exp class. We have examined many complex systems such as the Turing complete elementary automaton 110, or Game of Life to find out they all fit to linear functions the best. We therefore formed a hypothesis that complex systems belong to the Lin or Poly classes, which correspond to the &ldquo;transition region&rdquo; from logarithmic to exponential behavior. We further used the classification method to automatically search for complex automata in large spaces by searching for automata with linear or polynomial transient growth. Some interesting results are shown below.</p>
-<p>
-
-
-
-
-
-<figure>
-
-<img src="./lin.gif" >
-
-
-
-<figcaption data-pre="Figure " data-post=":" >
-  <h4>Cellular Automata with emerging patterns which have linearly growing average transients.</h4>
-  
-</figcaption>
-
-</figure>
-
 
 
 
@@ -643,12 +629,13 @@ That is, $F_i: S_i \rightarrow S_i$ and $|S_i| &lt; |S_{i+1}|$ for each $i$. For
 </figcaption>
 
 </figure>
-</p>
-<p>We have applied the transient classification to other discrete dynamical systems to show it works across various systems and presented the results in our subsequent <a href="../transient_general/">paper</a>, which is now in the review process for the special issue of the ALife journal. The results suggest that there is a general trend across discrete systems which we describe in the paper:</p>
+
+<p>We have applied the transient classification to other discrete dynamical systems to show it works across various systems including cellular automata, Turing machines and random Boolean networks. The results suggest that there is a general trend across discrete systems which we describe in the paper:</p>
 <blockquote>
-<p>The interesting property of the transient classification is that it was able to qualitatively distinguish the phase transition between order and chaos  by identifying it with linear or polynomial transient growth.</p>
+<p>The interesting property of the transient classification is that it was able to qualitatively distinguish the phase transition between order and chaos by identifying it with linear or polynomial transient growth.</p>
 <p>We note that our results are experimental and that the asymptotic behavior of systems in the Lin or Poly class might eventually turn out to be logarithmic or exponential. In that case, such systems would exhibit a significantly longer time before they converge to their typical long-term behavior. That, too, is a typical property of systems at a phase transition.</p>
 </blockquote>
+<p>This paper extends our previous results published in the paper Classification of Complex Systems Based on Transients available <a href="https://arxiv.org/abs/2008.13503">here</a>.</p>
 </div>
 
     
@@ -704,18 +691,52 @@ That is, $F_i: S_i \rightarrow S_i$ and $|S_i| &lt; |S_{i+1}|$ for each $i$. For
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -723,12 +744,12 @@ That is, $F_i: S_i \rightarrow S_i$ and $|S_i| &lt; |S_{i+1}|$ for each $i$. For
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academia.min.f2fef7019062832f47125d7c2fc68a3b.js"></script>
+    <script src="/js/academia.min.77c1415c9386584bddb5d6c8ed7491f1.js"></script>
 
     
 

@@ -7,33 +7,49 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://barahudcova.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Self-Replication and Computational Universality</title>
+      <link>https://barahudcova.com/publication/self_rep/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://barahudcova.com/publication/self_rep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation Limitations of Affine Cellular Automata</title>
+      <link>https://barahudcova.com/publication/sim_lim/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://barahudcova.com/publication/sim_lim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamical Phase Transitions in Graph Cellular Automata</title>
+      <link>https://barahudcova.com/publication/graph_ca/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://barahudcova.com/publication/graph_ca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studying Encoder–Decoder Relation Between Cellular Automata to Uncover Their Computational Structure</title>
+      <link>https://barahudcova.com/publication/enc_dec/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://barahudcova.com/publication/enc_dec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Classification of Discrete Dynamical Systems Based on Transients</title>
-      <link>https://barahudcova.com/publication/transient_general/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://barahudcova.com/publication/transient_general/</guid>
-      <description>&lt;p&gt;We extend our previous &lt;a href=&#34;../transient&#34;&gt;paper&lt;/a&gt; about a novel method of classifying the dynamics of discrete dynamical systems. Currently, it&amp;rsquo;s in the review process for a special issue of the ALife Journal. After we receive the feedback and adjust the paper accordingly, I will publish the results here.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Computational Hierarchy of Elementary Cellular Automata</title>
-      <link>https://barahudcova.com/publication/eca_computation/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://barahudcova.com/publication/eca_computation/</guid>
-      <description>&lt;p&gt;In this paper, we measure the computational capacity of elementary cellular automata. Currently, the paper is in the review process for ALife 2021 Conference. After we receive the feedback and adjust the paper accordingly, I will publish the results here.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Classification of Complex Systems Based on Transients</title>
       <link>https://barahudcova.com/publication/transient/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -78,25 +94,6 @@ That is, $F_i: S_i \rightarrow S_i$ and $|S_i| &amp;lt; |S_{i+1}|$ for each $i$.
 &lt;/figure&gt;
 
 &lt;p&gt;The results show that ordered systems generally correspond to Bound or Log classes whereas chaotic systems to the Exp class. We have examined many complex systems such as the Turing complete elementary automaton 110, or Game of Life to find out they all fit to linear functions the best. We therefore formed a hypothesis that complex systems belong to the Lin or Poly classes, which correspond to the &amp;ldquo;transition region&amp;rdquo; from logarithmic to exponential behavior. We further used the classification method to automatically search for complex automata in large spaces by searching for automata with linear or polynomial transient growth. Some interesting results are shown below.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;./lin.gif&#34; &gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Cellular Automata with emerging patterns which have linearly growing average transients.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
 
 
 
@@ -115,12 +112,13 @@ That is, $F_i: S_i \rightarrow S_i$ and $|S_i| &amp;lt; |S_{i+1}|$ for each $i$.
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;We have applied the transient classification to other discrete dynamical systems to show it works across various systems and presented the results in our subsequent &lt;a href=&#34;../transient_general/&#34;&gt;paper&lt;/a&gt;, which is now in the review process for the special issue of the ALife journal. The results suggest that there is a general trend across discrete systems which we describe in the paper:&lt;/p&gt;
+
+&lt;p&gt;We have applied the transient classification to other discrete dynamical systems to show it works across various systems including cellular automata, Turing machines and random Boolean networks. The results suggest that there is a general trend across discrete systems which we describe in the paper:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The interesting property of the transient classification is that it was able to qualitatively distinguish the phase transition between order and chaos  by identifying it with linear or polynomial transient growth.&lt;/p&gt;
+&lt;p&gt;The interesting property of the transient classification is that it was able to qualitatively distinguish the phase transition between order and chaos by identifying it with linear or polynomial transient growth.&lt;/p&gt;
 &lt;p&gt;We note that our results are experimental and that the asymptotic behavior of systems in the Lin or Poly class might eventually turn out to be logarithmic or exponential. In that case, such systems would exhibit a significantly longer time before they converge to their typical long-term behavior. That, too, is a typical property of systems at a phase transition.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;This paper extends our previous results published in the paper Classification of Complex Systems Based on Transients available &lt;a href=&#34;https://arxiv.org/abs/2008.13503&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

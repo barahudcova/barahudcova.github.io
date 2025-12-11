@@ -118,7 +118,7 @@
   <meta property="og:description" content=""><meta property="og:image" content="https://barahudcova.com/img/icon-192.png">
   <meta property="twitter:image" content="https://barahudcova.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2021-04-01T00:00:00&#43;00:00">
+  <meta property="og:updated_time" content="2025-09-01T00:00:00&#43;00:00">
   
 
   
@@ -152,7 +152,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -351,6 +352,10 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
@@ -392,7 +397,7 @@
     <div id="profile">
       
       
-      <img class="img-fluid" src="/img/cards.jpg" itemprop="image" alt="Avatar">
+      <img class="img-fluid" src="/img/profile.png" itemprop="image" alt="Avatar">
       
     </div>
     <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
@@ -439,15 +444,23 @@ with supervisors <a href="https://scholar.google.com/citations?user=oBu8kMMAAAAJ
       <ul>
         
         <li>
-          <a href="/publication/transient_general/">Classification of Discrete Dynamical Systems Based on Transients</a>
+          <a href="/publication/self_rep/">Self-Replication and Computational Universality</a>
         </li>
         
         <li>
-          <a href="/publication/eca_computation/">Computational Hierarchy of Elementary Cellular Automata</a>
+          <a href="/publication/sim_lim/">Simulation Limitations of Affine Cellular Automata</a>
         </li>
         
         <li>
-          <a href="/publication/transient/">Classification of Complex Systems Based on Transients</a>
+          <a href="/publication/graph_ca/">Dynamical Phase Transitions in Graph Cellular Automata</a>
+        </li>
+        
+        <li>
+          <a href="/publication/enc_dec/">Studying Encoder–Decoder Relation Between Cellular Automata to Uncover Their Computational Structure</a>
+        </li>
+        
+        <li>
+          <a href="/publication/transient/">Classification of Discrete Dynamical Systems Based on Transients</a>
         </li>
         
       </ul>
@@ -499,18 +512,52 @@ with supervisors <a href="https://scholar.google.com/citations?user=oBu8kMMAAAAJ
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -518,12 +565,12 @@ with supervisors <a href="https://scholar.google.com/citations?user=oBu8kMMAAAAJ
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academia.min.f2fef7019062832f47125d7c2fc68a3b.js"></script>
+    <script src="/js/academia.min.77c1415c9386584bddb5d6c8ed7491f1.js"></script>
 
     
 
