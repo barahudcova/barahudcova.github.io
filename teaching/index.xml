@@ -21,7 +21,306 @@
       <description>&lt;p&gt;official website of the course: &lt;a href=&#34;https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527&#34;&gt;https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What is Artificial Life About?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with such intriguing dynamics - it is likely you have already encountered some of them.&lt;/p&gt;
-&lt;p&gt;To be continued.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Game of Life&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The most classic example of a cellular automaton in two-dimensions with two states.&lt;/p&gt;
+&lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_game_of_life_basic_v3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Game of Life iterated from a random initial configuration.&lt;br&gt;Green shows a few past states to better see movement.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+            display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_game_of_life_vacuum_cleaner.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Game of Life construction: a ‘vacuum cleaner’.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_game_of_life_sim.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Game of Life simulating another 2D cellular automaton.&lt;br&gt;High level.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_game_of_life_metacell.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Game of Life simulating another 2D cellular automaton.&lt;br&gt;Zoom-in.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Elementary Cellular Automaton Rule 110&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A famous one-dimensional example of a cellular automaton with a very compact local rule which is Turing complete.&lt;/p&gt;
+&lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_rule110_basic.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Rule 110 iterated from a random initial configuration.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_rule110_universal.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Rule 110 simulating a cyclic tag system.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Barricelli&amp;rsquo;s model&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_barricelli1d.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      One-dimensional version.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_barricelli2d.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Two-dimensional version.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;John von Neumann&amp;rsquo;s Universal Self-Replicator&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_vn_rules_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Rules for constructing new states.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+            display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_vn_pulser.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      A pulser periodically emitting the sequence 10100.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/vn_full.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      The full construction.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Smaller Self-Replicators&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_byl_loop.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Byl&#39;s Loop.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+            display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_perrier_loop_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Perrier-Sipper-Zahnd loop.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_evoloops_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Evoloops.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Continuous Systems&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_lenia_singlechannel.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Lenia with a single channel.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+            display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_lenia_multichannel.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Lenia with RGB channels.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_neural_cas.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Neural cellular automata.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_gray_scott.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Reaction-diffusion model.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;/div&gt;
+
 </description>
     </item>
     

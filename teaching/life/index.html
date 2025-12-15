@@ -129,10 +129,6 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
 
   
 
-
-
-
-
   <title>Cellular Automata and Models of Artificial Life | Barbora Hudcová</title>
 
 </head>
@@ -461,7 +457,306 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
       <p>official website of the course: <a href="https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527">https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527</a></p>
 <p><strong>What is Artificial Life About?</strong></p>
 <p>The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with such intriguing dynamics - it is likely you have already encountered some of them.</p>
-<p>To be continued.</p>
+<p><strong>Game of Life</strong></p>
+<p>The most classic example of a cellular automaton in two-dimensions with two states.</p>
+<div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_game_of_life_basic_v3.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Game of Life iterated from a random initial configuration.<br>Green shows a few past states to better see movement.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+            display:block; margin:0 auto;">
+      <source src="/videos/web_game_of_life_vacuum_cleaner.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Game of Life construction: a ‘vacuum cleaner’.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_game_of_life_sim.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Game of Life simulating another 2D cellular automaton.<br>High level.
+    </figcaption>
+  </figure>
+
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_game_of_life_metacell.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Game of Life simulating another 2D cellular automaton.<br>Zoom-in.
+    </figcaption>
+  </figure>
+
+</div>
+
+<p><strong>Elementary Cellular Automaton Rule 110</strong></p>
+<p>A famous one-dimensional example of a cellular automaton with a very compact local rule which is Turing complete.</p>
+<div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;">
+      <source src="/videos/web_rule110_basic.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Rule 110 iterated from a random initial configuration.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;">
+      <source src="/videos/web_rule110_universal.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Rule 110 simulating a cyclic tag system.
+    </figcaption>
+  </figure>
+
+</div>
+<p><strong>Barricelli&rsquo;s model</strong></p>
+<div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;">
+      <source src="/videos/web_barricelli1d.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      One-dimensional version.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;">
+      <source src="/videos/web_barricelli2d.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Two-dimensional version.
+    </figcaption>
+  </figure>
+
+</div>
+<p><strong>John von Neumann&rsquo;s Universal Self-Replicator</strong></p>
+<div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+
+  <figure style="margin:0;">
+    <video
+      muted playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_vn_rules_v2.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Rules for constructing new states.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+            display:block; margin:0 auto;">
+      <source src="/videos/web_vn_pulser.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      A pulser periodically emitting the sequence 10100.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/vn_full.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      The full construction.
+    </figcaption>
+  </figure>
+
+</div>
+
+<p><strong>Smaller Self-Replicators</strong></p>
+<div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+
+  <figure style="margin:0;">
+    <video
+      muted playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_byl_loop.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Byl's Loop.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+            display:block; margin:0 auto;">
+      <source src="/videos/web_perrier_loop_v2.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Perrier-Sipper-Zahnd loop.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_evoloops_v2.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Evoloops.
+    </figcaption>
+  </figure>
+
+</div>
+
+<p><strong>Continuous Systems</strong></p>
+<div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_lenia_singlechannel.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Lenia with a single channel.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+            display:block; margin:0 auto;">
+      <source src="/videos/web_lenia_multichannel.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Lenia with RGB channels.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_neural_cas.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Neural cellular automata.
+    </figcaption>
+  </figure>
+
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             display:block; margin:0 auto;">
+      <source src="/videos/web_gray_scott.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Reaction-diffusion model.
+    </figcaption>
+  </figure>
+
+</div>
+
 
     </div>
 
