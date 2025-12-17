@@ -456,7 +456,7 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
     <div class="article-style" itemprop="articleBody">
       <p>official website of the course: <a href="https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527">https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527</a></p>
 <p><strong>What is Artificial Life About?</strong></p>
-<p>The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with such intriguing dynamics - it is likely you have already encountered some of them.</p>
+<p>The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with such intriguing dynamics - it is likely you have already encountered some of them.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p><strong>Game of Life</strong></p>
 <p>The most classic example of a cellular automaton in two-dimensions with two states.</p>
 <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
@@ -732,10 +732,10 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
       onmouseout="this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;">
-      <source src="/videos/web_neural_cas.mp4" type="video/mp4">
+      <source src="/videos/web_lenia_multichannel2.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Neural cellular automata.
+      Lenia with RGB channels.
     </figcaption>
   </figure>
 
@@ -748,6 +748,40 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
       onmouseout="this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;">
+      <source src="/videos/web_lenia_multichannel3.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Lenia with RGB channels.
+    </figcaption>
+  </figure>
+
+</div>
+
+<div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;">
+      <source src="/videos/web_neural_cas.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; color:#666;">
+      Neural cellular automata.
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <video
+      muted
+      playsinline
+      onmouseover="this.play()"
+      onmouseout="this.pause()"
+      style="height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;">
       <source src="/videos/web_gray_scott.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
@@ -756,7 +790,15 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
   </figure>
 
 </div>
-
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The figures with dark gray background were generated using the open-source software <a href="https://golly.sourceforge.net/">Golly</a>, a cellular automaton simulator developed by Andrew Trevorrow and Tomas Rokicki.
+All the other figures were generated using <a href="https://github.com/frotaur/PyCA">PyCA</a>, a Python library facilitating the implementation of artificial life models, developed by my colleague <a href="https://vassi.life/">Vassilis Papadopoulos</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
     </div>
 

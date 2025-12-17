@@ -20,7 +20,7 @@
       <guid>https://barahudcova.com/teaching/life/</guid>
       <description>&lt;p&gt;official website of the course: &lt;a href=&#34;https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527&#34;&gt;https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What is Artificial Life About?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with such intriguing dynamics - it is likely you have already encountered some of them.&lt;/p&gt;
+&lt;p&gt;The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with such intriguing dynamics - it is likely you have already encountered some of them.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Game of Life&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The most classic example of a cellular automaton in two-dimensions with two states.&lt;/p&gt;
 &lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
@@ -296,10 +296,10 @@
       onmouseout=&#34;this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;&#34;&gt;
-      &lt;source src=&#34;https://barahudcova.com/videos/web_neural_cas.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_lenia_multichannel2.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Neural cellular automata.
+      Lenia with RGB channels.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
@@ -312,6 +312,40 @@
       onmouseout=&#34;this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_lenia_multichannel3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Lenia with RGB channels.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;/div&gt;
+
+&lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+      &lt;source src=&#34;https://barahudcova.com/videos/web_neural_cas.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+    &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
+      Neural cellular automata.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure style=&#34;margin:0;&#34;&gt;
+    &lt;video
+      muted
+      playsinline
+      onmouseover=&#34;this.play()&#34;
+      onmouseout=&#34;this.pause()&#34;
+      style=&#34;height:1200px; max-width:2000px; width:100%;
+             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_gray_scott.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
@@ -320,7 +354,15 @@
   &lt;/figure&gt;
 
 &lt;/div&gt;
-
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The figures with dark gray background were generated using the open-source software &lt;a href=&#34;https://golly.sourceforge.net/&#34;&gt;Golly&lt;/a&gt;, a cellular automaton simulator developed by Andrew Trevorrow and Tomas Rokicki.
+All the other figures were generated using &lt;a href=&#34;https://github.com/frotaur/PyCA&#34;&gt;PyCA&lt;/a&gt;, a Python library facilitating the implementation of artificial life models, developed by my colleague &lt;a href=&#34;https://vassi.life/&#34;&gt;Vassilis Papadopoulos&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
