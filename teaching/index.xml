@@ -30,6 +30,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_game_of_life_basic_v3.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -48,6 +49,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_game_of_life_vacuum_cleaner.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -66,6 +68,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_game_of_life_sim_v3.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -84,6 +87,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_game_of_life_metacell.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -108,6 +112,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_rule110_basic.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -126,6 +131,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_rule110_universal.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -149,6 +155,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_barricelli1d.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -167,6 +174,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_barricelli2d.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -190,6 +198,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_vn_rules_v2.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -208,6 +217,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_vn_pulser.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -226,6 +236,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/vn_full.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -248,6 +259,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_byl_loop.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -266,6 +278,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_perrier_loop_v2.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -284,6 +297,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_evoloops_v2.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -306,6 +320,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_lenia_singlechannel.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -324,6 +339,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_lenia_multichannel.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -342,6 +358,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_lenia_multichannel2.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -360,6 +377,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_lenia_multichannel3.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -382,6 +400,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_neural_cas.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
@@ -400,6 +419,7 @@
       muted
       playsinline
       preload=&#34;metadata&#34;
+      poster=&#34;/videos/web_gray_scott.jpg&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
       onclick=&#34;this.paused ? this.play() : this.pause()&#34;
