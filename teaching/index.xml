@@ -107,14 +107,17 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
-             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+             display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_rule110_basic.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Rule 110 iterated from a random initial configuration.
+      &lt;p&gt;Rule 110 iterated from a random initial configuration.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
@@ -122,18 +125,22 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
-             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+             display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_rule110_universal.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Rule 110 simulating a cyclic tag system.
+      &lt;p&gt;Rule 110 simulating a cyclic tag system.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
 &lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Barricelli&amp;rsquo;s model&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
 
@@ -141,14 +148,17 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
-             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+             display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_barricelli1d.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      One-dimensional version.
+      &lt;p&gt;One-dimensional version.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
@@ -156,32 +166,40 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
-             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+             display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_barricelli2d.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Two-dimensional version.
+      &lt;p&gt;Two-dimensional version.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
 &lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;John von Neumann&amp;rsquo;s Universal Self-Replicator&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;&#34;&gt;
 
   &lt;figure style=&#34;margin:0;&#34;&gt;
     &lt;video
-      muted playsinline
+      muted
+      playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_vn_rules_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Rules for constructing new states.
+      &lt;p&gt;Rules for constructing new states.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
@@ -189,14 +207,17 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
-            display:block; margin:0 auto;&#34;&gt;
+             display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_vn_pulser.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      A pulser periodically emitting the sequence 10100.
+      &lt;p&gt;A pulser periodically emitting the sequence 10100.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
@@ -204,17 +225,19 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/vn_full.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      The full construction.
+      &lt;p&gt;The full construction.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
-
 &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Smaller Self-Replicators&lt;/strong&gt;&lt;/p&gt;
@@ -222,15 +245,19 @@
 
   &lt;figure style=&#34;margin:0;&#34;&gt;
     &lt;video
-      muted playsinline
+      muted
+      playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_byl_loop.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Byl&#39;s Loop.
+      &lt;p&gt;Byl&amp;rsquo;s Loop.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
@@ -238,14 +265,17 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
-            display:block; margin:0 auto;&#34;&gt;
+             display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_perrier_loop_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Perrier-Sipper-Zahnd loop.
+      &lt;p&gt;Perrier-Sipper-Zahnd loop.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
@@ -253,17 +283,19 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_evoloops_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Evoloops.
+      &lt;p&gt;Evoloops.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
-
 &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Continuous Systems&lt;/strong&gt;&lt;/p&gt;
@@ -349,14 +381,17 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
-             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+             display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_neural_cas.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Neural cellular automata.
+      &lt;p&gt;Neural cellular automata.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
@@ -364,18 +399,22 @@
     &lt;video
       muted
       playsinline
+      preload=&#34;metadata&#34;
       onmouseover=&#34;this.play()&#34;
       onmouseout=&#34;this.pause()&#34;
+      onclick=&#34;this.paused ? this.play() : this.pause()&#34;
       style=&#34;height:1200px; max-width:2000px; width:100%;
-             object-fit:contain; display:block; margin:0 auto;&#34;&gt;
+             display:block; margin:0 auto;&#34;&gt;
       &lt;source src=&#34;https://barahudcova.com/videos/web_gray_scott.mp4&#34; type=&#34;video/mp4&#34;&gt;
     &lt;/video&gt;
     &lt;figcaption style=&#34;text-align:center; font-size:0.9em; color:#666;&#34;&gt;
-      Reaction-diffusion model.
+      &lt;p&gt;Reaction-diffusion model.&lt;/p&gt;
+
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
 &lt;/div&gt;
+
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
