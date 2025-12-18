@@ -31,7 +31,7 @@
   
   <meta name="description" content="official website of the course: https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527
 What is Artificial Life About?
-The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor.">
+The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be presented with mathematical rigor.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://barahudcova.com/teaching/life/">
@@ -116,7 +116,7 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
   <meta property="og:title" content="Cellular Automata and Models of Artificial Life | Barbora Hudcová">
   <meta property="og:description" content="official website of the course: https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527
 What is Artificial Life About?
-The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor."><meta property="og:image" content="https://barahudcova.com/img/icon-192.png">
+The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be presented with mathematical rigor."><meta property="og:image" content="https://barahudcova.com/img/icon-192.png">
   <meta property="twitter:image" content="https://barahudcova.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2025-12-01T00:00:00&#43;00:00">
@@ -456,7 +456,7 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
     <div class="article-style" itemprop="articleBody">
       <p>official website of the course: <a href="https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527">https://edu.epfl.ch/coursebook/en/cellular-automata-and-models-of-artificial-life-MATH-527</a></p>
 <p><strong>What is Artificial Life About?</strong></p>
-<p>The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be treated with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with such intriguing dynamics - it is likely you have already encountered some of them.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The aim of ALife is to study the fundamental mechanisms of life while abstracting away from the particularities of its biological implementation. One key goal is to recreate such process in a computer simulation. The field is very diverse and interdisciplinary in its nature, and in this course we will focus on the theoretical results that can be presented with mathematical rigor. We will study dynamical systems, and the interplay between the notions of self-replication, computation, and dynamical properties in such systems. The most classical model we will cover in detail are cellular automata, which often produce fascinating visualizations from iterating very compact local rules. Below, I will give a quick overview of some ALife models with intriguing dynamics - it is likely you have already encountered some of them.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p><strong>Game of Life</strong></p>
 <p>The most classic example of a cellular automaton in two-dimensions with two states.</p>
 <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
@@ -465,14 +465,17 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
     <video
       muted
       playsinline
+      preload="metadata"
       onmouseover="this.play()"
       onmouseout="this.pause()"
+      onclick="this.paused ? this.play() : this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;">
       <source src="/videos/web_game_of_life_basic_v3.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Game of Life iterated from a random initial configuration.<br>Green shows a few past states to better see movement.
+      <p>Game of Life iterated from a random initial configuration.<br>Green shows a few past states to better see movement.</p>
+
     </figcaption>
   </figure>
 
@@ -480,14 +483,17 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
     <video
       muted
       playsinline
+      preload="metadata"
       onmouseover="this.play()"
       onmouseout="this.pause()"
+      onclick="this.paused ? this.play() : this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
-            display:block; margin:0 auto;">
+             display:block; margin:0 auto;">
       <source src="/videos/web_game_of_life_vacuum_cleaner.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Game of Life construction: a ‘vacuum cleaner’.
+      <p>Game of Life construction: a ‘vacuum cleaner’.</p>
+
     </figcaption>
   </figure>
 
@@ -495,30 +501,35 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
     <video
       muted
       playsinline
+      preload="metadata"
       onmouseover="this.play()"
       onmouseout="this.pause()"
+      onclick="this.paused ? this.play() : this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;">
-      <source src="/videos/web_game_of_life_sim.mp4" type="video/mp4">
+      <source src="/videos/web_game_of_life_sim_v3.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Game of Life simulating another 2D cellular automaton.<br>High level.
+      <p>Game of Life simulating another 2D cellular automaton.<br>High level.</p>
+
     </figcaption>
   </figure>
-
 
   <figure style="margin:0;">
     <video
       muted
       playsinline
+      preload="metadata"
       onmouseover="this.play()"
       onmouseout="this.pause()"
+      onclick="this.paused ? this.play() : this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;">
       <source src="/videos/web_game_of_life_metacell.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Game of Life simulating another 2D cellular automaton.<br>Zoom-in.
+      <p>Game of Life simulating another 2D cellular automaton.<br>Zoom-in.</p>
+
     </figcaption>
   </figure>
 
@@ -698,14 +709,17 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
     <video
       muted
       playsinline
+      preload="metadata"
       onmouseover="this.play()"
       onmouseout="this.pause()"
+      onclick="this.paused ? this.play() : this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;">
       <source src="/videos/web_lenia_singlechannel.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Lenia with a single channel.
+      <p>Lenia with a single channel.</p>
+
     </figcaption>
   </figure>
 
@@ -713,14 +727,17 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
     <video
       muted
       playsinline
+      preload="metadata"
       onmouseover="this.play()"
       onmouseout="this.pause()"
+      onclick="this.paused ? this.play() : this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
-            display:block; margin:0 auto;">
+             display:block; margin:0 auto;">
       <source src="/videos/web_lenia_multichannel.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Lenia with RGB channels.
+      <p>Lenia with RGB channels I.</p>
+
     </figcaption>
   </figure>
 
@@ -728,30 +745,35 @@ The aim of ALife is to study the fundamental mechanisms of life while abstractin
     <video
       muted
       playsinline
+      preload="metadata"
       onmouseover="this.play()"
       onmouseout="this.pause()"
+      onclick="this.paused ? this.play() : this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;">
       <source src="/videos/web_lenia_multichannel2.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Lenia with RGB channels.
+      <p>Lenia with RGB channels II.</p>
+
     </figcaption>
   </figure>
-
 
   <figure style="margin:0;">
     <video
       muted
       playsinline
+      preload="metadata"
       onmouseover="this.play()"
       onmouseout="this.pause()"
+      onclick="this.paused ? this.play() : this.pause()"
       style="height:1200px; max-width:2000px; width:100%;
              display:block; margin:0 auto;">
       <source src="/videos/web_lenia_multichannel3.mp4" type="video/mp4">
     </video>
     <figcaption style="text-align:center; font-size:0.9em; color:#666;">
-      Lenia with RGB channels.
+      <p>Lenia with RGB channels III.</p>
+
     </figcaption>
   </figure>
 
