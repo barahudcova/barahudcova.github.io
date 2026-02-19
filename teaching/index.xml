@@ -30,6 +30,12 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;./worksheets/ex1.pdf&#34;&gt;Worksheet 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Software Tools&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golly.sourceforge.io/&#34;&gt;Golly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/frotaur/PyCA&#34;&gt;PyCA github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=InH9DYMEGD8&#34;&gt;PyCA demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;a href=&#34;https://barahudcova.com/teaching/life/teaser/&#34;&gt;Course Teaser: What is Artificial Life About?&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
