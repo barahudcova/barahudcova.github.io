@@ -25,7 +25,10 @@
 &lt;li&gt;&lt;a href=&#34;./lecture_notes/lecture_notes_chap1.pdf&#34;&gt;Lecture Notes Chapter 1: Self-Reference in Programs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Lectures&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Details about what we covered will appear here.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lecture 1: Introduction to the course, Turing machines, Computability.&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=8V9-ZNqwqXs&amp;amp;t=1s&#34;&gt;Part 1 Recording&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=XvZkgY0p8V4&#34;&gt;Part 2 Recording&lt;/a&gt;, we covered pages 1&amp;ndash;4 from the &lt;a href=&#34;./lecture_notes/lecture_notes_chap1.pdf&#34;&gt;lecture notes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Worksheets&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;./worksheets/ex1.pdf&#34;&gt;Worksheet 1&lt;/a&gt;&lt;/li&gt;
