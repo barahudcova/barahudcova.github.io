@@ -22,12 +22,14 @@
 &lt;p&gt;&lt;strong&gt;Course Materials&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I am currently in the process of writing lecture notes for the course and I will progressively update them here. Since this is the first draft, if you spot any mistake or have any remarks, I would greatly appreciate if you let me know.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;./lecture_notes/lecture_notes_chap1.pdf&#34;&gt;Lecture Notes Chapter 1: Self-Reference in Programs&lt;/a&gt; &lt;em&gt;last updated: 26.2.2026&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./lecture_notes/lecture_notes_chap1.pdf&#34;&gt;Lecture Notes Chapter 1: Self-Reference in Programs&lt;/a&gt; &lt;em&gt;last updated: 27.2.2026&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Lectures&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lecture 1: Introduction to the course, Turing machines, Computability.&lt;br&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=8V9-ZNqwqXs&amp;amp;t=1s&#34;&gt;Part 1 Recording&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=XvZkgY0p8V4&#34;&gt;Part 2 Recording&lt;/a&gt;, we covered pages 1&amp;ndash;4 from the &lt;a href=&#34;./lecture_notes/lecture_notes_chap1.pdf&#34;&gt;lecture notes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Lecture 2: Universal Turing machines, Undecidability.&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=HgmJIVjeAt0&#34;&gt;Part 1 Recording&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=MZHcApyOFlc&#34;&gt;Part 2 Recording&lt;/a&gt;, we covered pages 5&amp;ndash;9 from the &lt;a href=&#34;./lecture_notes/lecture_notes_chap1.pdf&#34;&gt;lecture notes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Worksheets&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
